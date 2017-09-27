@@ -1,7 +1,7 @@
  var x = document.getElementsByTagName('li');
  var i;
 for ( i = 0; i < x.length; i++) {
-  //copy this line saka paste sa baba note palitan ang x[i] ng li
+  //copy this line saka paste sa baba note palitan ang x[i] ng list
   var span = document.createElement("span");
   span.className = "close";
   var node = document.createTextNode("\u00d7");
